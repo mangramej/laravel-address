@@ -39,7 +39,7 @@ class AddressServiceProvider extends ServiceProvider
         }
 
         $this->setupViews();
-        $this->setupRoutes();
+        // $this->setupRoutes();
         $this->setupMacro();
     }
 
